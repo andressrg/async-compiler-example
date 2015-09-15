@@ -5,8 +5,6 @@ import AsyncCompiler from 'async-compiler';
 let app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
-
   let compiler = new AsyncCompiler({
     s3KeyId: process.env.AWS_ACCESS_ID,
     s3AccessKey: process.env.AWS_ACCESS_KEY,
@@ -25,7 +23,7 @@ app.get('/', (req, res) => {
 });
 
 
-const server = app.listen(3000, function () {
+const server = app.listen((process.env.PORT || 5000), function () {
   const host = server.address().address;
   const port = server.address().port;
 
