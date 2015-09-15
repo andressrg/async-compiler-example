@@ -1,0 +1,22 @@
+{
+  "name": "async-compiler-example",
+  "version": "0.0.1",
+  "description": "Example on how to use https://github.com/take2mfg/async-compiler",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andressrg/async-compiler-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andressrg/async-compiler-example/issues"
+  },
+  "homepage": "https://github.com/andressrg/async-compiler-example",
+  "dependencies": {
+    "async-compiler": "take2mfg/async-compiler",
+    "babel": "^5.8.23",
+    "express": "^4.13.3"
+  }
+}
