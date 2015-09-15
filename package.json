@@ -15,7 +15,7 @@
   },
   "homepage": "https://github.com/andressrg/async-compiler-example",
   "dependencies": {
-    "async-compiler": "take2mfg/async-compiler",
+    "async-compiler": "take2mfg/async-compiler#454b68e053763fc900870e6c9ec5860969d11544",
     "babel": "^5.8.23",
     "express": "^4.13.3"
   }
